@@ -136,5 +136,3 @@
 		$output .= "</ul>";
 		return $output;
 	}
-
-?>

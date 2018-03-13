@@ -1,8 +1,10 @@
 <?php require_once("includes/session.php"); ?>
-<?php include_once("includes/connection.php"); //Creates connection and selects Db ?>
-<?php require_once("includes/functions.php"); //Functions folder ?>
-<?php require_once("includes/validation_functions.php"); //Functions folder ?>
-<?php include("includes/header.php"); ?>
+<?php require_once("includes/connection.php"); ?>
+<?php require_once("includes/functions.php");  ?>
+<?php require_once("includes/validation_functions.php"); ?>
+
+<?php require('views/partials/head.php') ?>
+
 <?php
 //This function runs the loop checks and makes data gathered with fetch() available.
 find_selected_page();
@@ -26,4 +28,5 @@ find_selected_page();
 		<?php }?>
 	</div>
 </div>
-<?php require("includes/footer.php"); ?>
+
+<?php require('views/partials/footer.php') ?>

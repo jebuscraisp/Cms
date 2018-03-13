@@ -1,7 +1,8 @@
 <?php require_once("includes/session.php"); ?>
-<?php require_once("includes/connection.php"); //Creates connection and selects Db ?>
-<?php require_once("includes/functions.php"); //Functions folder ?>
-<?php require_once("includes/validation_functions.php"); //Functions folder ?>
+<?php require_once("includes/connection.php"); ?>
+<?php require_once("includes/functions.php");  ?>
+<?php require_once("includes/validation_functions.php"); ?>
+
 <?php
 //This function runs the loop checks and makes data gathered with fetch() available.
 find_selected_page();
@@ -59,7 +60,7 @@ if (isset($_POST['submit'])) {
 
 ?>
 
-<?php require_once("includes/header.php"); ?>
+<?php require('views/partials/head.php') ?>
 
 <div>
   <div id="navigation">
@@ -109,4 +110,5 @@ if (isset($_POST['submit'])) {
       </h2>
   </form>
   </div>
-<?php require("includes/footer.php"); ?>
+
+<?php require('views/partials/footer.php') ?>

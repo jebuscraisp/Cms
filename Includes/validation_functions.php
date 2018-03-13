@@ -23,7 +23,7 @@ function validate_presences($required_fields) {
 
 		}
 	}
-	
+
 }
 
 // * string length
@@ -64,5 +64,3 @@ function form_errors($errors=array()) {
 	}
 	return $output;
 }
-
-?>

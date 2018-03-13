@@ -1,7 +1,8 @@
 <?php require_once("includes/session.php"); ?>
-<?php require_once("includes/connection.php"); //Creates connection and selects Db ?>
-<?php require_once("includes/functions.php"); //Functions folder ?>
+<?php require_once("includes/connection.php"); ?>
+<?php require_once("includes/functions.php");  ?>
 <?php require_once("includes/validation_functions.php"); ?>
+
 <?php
 
 if (isset($_POST["submit"])){

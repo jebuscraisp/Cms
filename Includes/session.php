@@ -24,4 +24,3 @@ function errors() {
     return $errors;
   }
 }
-?>
